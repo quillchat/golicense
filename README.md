@@ -101,10 +101,10 @@ any authentication out of the box but will be severely rate limited.
 It is recommended that you generate a [personal access token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/) to increase the rate limit. The personal access token doesn't require any
 special access unless it needs to look at private repositories you have
 access to, in which case it should be granted the `repo` permission.
-Specify your token using the `GITHUB_TOKEN` environment variable.
+Specify your token using the `PERSONAL_ACCESS_TOKEN` environment variable.
 
 ```
-$ export GITHUB_TOKEN=abcd1234
+$ export PERSONAL_ACCESS_TOKEN=abcd1234
 $ golicense ./binary
 ```
 

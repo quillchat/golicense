@@ -25,7 +25,7 @@ import (
 )
 
 const (
-	EnvGitHubToken = "GITHUB_TOKEN"
+	EnvGitHubToken = "PERSONAL_ACCESS_TOKEN"
 )
 
 func main() {
